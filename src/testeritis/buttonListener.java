@@ -13,7 +13,14 @@ public class buttonListener implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		JOptionPane.showMessageDialog(null, "HUHU");
+		
+		String domainName = "google.com";
+
+	
+		String command = "ping -n 3 " + domainName;
+		
+		ShellCommand x = new ShellCommand(command);
+		
 	}
 
 }

@@ -31,15 +31,5 @@ public class MainFrame extends JFrame{
 		this.add(btn);		
 		this.add(btn2);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

@@ -13,8 +13,8 @@ public class button2Listener implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
-		JOptionPane.showMessageDialog(null, "hallo");
+		String command = "raspivid -o video.h264 -t 10000 ";
+		ShellCommand x = new ShellCommand(command);
 	}
 
 }
